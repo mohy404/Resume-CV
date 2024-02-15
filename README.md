@@ -1,25 +1,43 @@
-HTML & CSS Resume
-Overview
-This project is a personal resume built using HTML and CSS. It showcases my web development skills and provides a structured format to present my professional experiences, education, skills, and projects in a visually appealing manner. This resume is designed to be responsive, ensuring it looks great on devices of all sizes.
+# Resume Website
 
-Features
-Responsive Design: Utilizes CSS media queries to ensure the resume is accessible and visually appealing on devices of all sizes, from mobile phones to desktop monitors.
-Clean and Modern Layout: A professional layout that emphasizes readability and structure.
-Contact Information: Includes a dedicated section for contact details, making it easy for potential employers or clients to reach out.
-Skills Section: Highlights technical and soft skills in a clear format.
-Experience and Education: Detailed sections for professional experience and educational background.
-Project Portfolio: A section dedicated to showcasing notable projects, with links to live sites or repositories (if applicable).
-Technologies Used
-HTML5
-CSS3
-How to Use
-Clone the repository to your local machine using git clone <repository-url>.
-Open the index.html file in a web browser to view the resume.
-To edit or update the resume, modify the index.html and style.css files with your information and preferred styles.
-Preview
-Insert a screenshot or a link to a live demo of your resume here.
+## Overview
+This is a personal resume website built using HTML and CSS. It's designed to be a responsive and interactive way to display my professional background, skills, and work experience.
 
-Future Improvements
-Add JavaScript to enhance interactivity, such as a lightbox for project images or a toggle for dark mode.
-Implement a form for direct contact through the webpage.
-Incorporate a downloadable PDF version of the resume.
+## Features
+
+- **Responsive Design:** Ensures the resume is accessible and visually appealing across a range of devices.
+- **Professional Layout:** Employs a clean and modern design, with a focus on readability and user experience.
+- **Contact Information:** Easily accessible contact details for potential employers or clients.
+- **Skills Section:** A clear display of both technical and soft skills.
+- **Experience and Education:** Detailed sections for work experience and academic qualifications.
+- **Project Portfolio:** Highlights of past projects with descriptions and links to live sites or code repositories, if available.
+
+## Technologies
+
+- HTML5
+- CSS3
+
+## Setup
+
+To view this project:
+
+1. Clone the repository:
+git clone https://github.com/your-username/your-repo-name.git
+
+2. Navigate to the repository folder and open `index.html` in your web browser.
+
+## Preview
+
+![Website Preview](path-to-image.png)
+
+Replace `path-to-image.png` with the actual file path or URL to your resume website screenshot.
+
+## Future Enhancements
+
+- Addition of JavaScript for dynamic content.
+- Incorporation of a content management system.
+- Implementation of additional features such as a blog or portfolio gallery.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
