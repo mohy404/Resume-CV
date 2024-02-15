@@ -22,7 +22,7 @@ This is a personal resume website built using HTML and CSS. It's designed to be 
 To view this project:
 
 1. Clone the repository:
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/mohy404/Resume-CV.git
 
 2. Navigate to the repository folder and open `index.html` in your web browser.
 
