@@ -1,113 +1,92 @@
-/* CSS Reset and Global Styles */
-* {
+body {
+    font-family: 'Bitter', serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Bitter', sans-serif;
     background-color: #f9f9f9;
     color: #333;
-    line-height: 1.6;
+}
+
+header {
+    background-color: #4a90e2;
+    color: white;
     padding: 20px;
-}
-
-header, section {
-    background: #fff;
-    margin-bottom: 20px;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-h1, h2, h3, h4 {
-    color: #333;
-}
-
-h1 {
-    font-size: 2.5rem;
     text-align: center;
 }
 
-/* Shared Section Styles */
-.shared-section {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+.contact-section h1 {
+    margin: 0;
+    font-size: 2.5em;
 }
 
-.shared-section h2, .contact-section h1 {
-    font-size: 24px;
-    margin-bottom: 15px;
+.contact-section p {
+    margin: 5px 0;
 }
 
-/* Skills and Contact Shared Styles */
-.skills-section div, .contact-info {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-}
-
-.skills-section span, .skills-list span {
-    background-color: #f4f4f4;
-    padding: 8px 12px;
-    border-radius: 20px;
-    font-size: 16px;
-    color: #555;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-}
-
-/* Icons and Links Styling */
-.skills-section .icons, .contact-info i {
-    color: #4CAF50;
-    margin-right: 5px;
+.contact-info p {
+    margin: 5px 0;
 }
 
 .contact-info a {
-    color: #4CAF50;
+    color: white;
     text-decoration: none;
-    transition: color 0.3s ease;
 }
 
-.contact-info a:hover {
-    color: #367B48;
-}
-
-/* Experience Section */
-.experience-section h2 {
-    border-bottom: 2px solid #4CAF50;
-    padding-bottom: 5px;
-}
-
-.experience-entry ul {
-    list-style-type: square;
-    margin-left: 20px;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .skills-section div, .contact-info {
-        justify-content: start;
-    }
-    
-    .sections-container, .contact-info {
-        flex-direction: column;
-    }
-}
-
-/* Simplified Container for Sections */
-.sections-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+main {
     padding: 20px;
 }
 
-.sections-container section {
-    flex: 1;
-    margin: 0 10px;
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.8em;
+    border-bottom: 2px solid #4a90e2;
+    padding-bottom: 5px;
+}
+
+.skills-section .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills-section span {
+    background-color: #4a90e2;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.experience-entry, .project, .certificate, .education  {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.experience-entry h3, .experience-entry h4 {
+    margin: 10px 0;
+}
+
+.experience-entry ul {
+    padding-left: 20px;
+}
+
+.project h4, .certificate h4, .education h4 {
+    margin: 10px 0;
+}
+
+.project p, .certificate p, .education p {
+    margin: 5px 0;
+}
+
+a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
